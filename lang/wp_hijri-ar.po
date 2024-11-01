@@ -1,0 +1,846 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: التاريخ الهجري للمقالات والصفحات\n"
+"POT-Creation-Date: 2023-05-26 19:29+0300\n"
+"PO-Revision-Date: 2023-05-26 20:03+0300\n"
+"Last-Translator: Mohammad Okfie <m-o984@hotmail.com>\n"
+"Language-Team: Mohammad Okfie <m-o984@hotmailc.om>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n"
+"%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: include/admin_form.php:4
+msgid "Muharram"
+msgstr "محرم"
+
+#: include/admin_form.php:5
+msgid "Safar"
+msgstr "صفر"
+
+#: include/admin_form.php:6
+msgid "Rabi Al Awwal"
+msgstr "ربيع الأول"
+
+#: include/admin_form.php:7
+msgid "Rabi Al Thani"
+msgstr "ربيع الثاني"
+
+#: include/admin_form.php:8
+msgid "Jumada Al Oula"
+msgstr "جمادى الأولى"
+
+#: include/admin_form.php:9
+msgid "Jumada Al Akhira"
+msgstr "جمادى الآخرة"
+
+#: include/admin_form.php:10
+msgid "Rajab"
+msgstr "رجب"
+
+#: include/admin_form.php:11
+msgid "Shaban"
+msgstr "شعبان"
+
+#: include/admin_form.php:12
+msgid "Ramadan"
+msgstr "رمضان"
+
+#: include/admin_form.php:13
+msgid "Shawwal"
+msgstr "شوال"
+
+#: include/admin_form.php:14
+msgid "Dhul Qidah"
+msgstr "ذو القعدة"
+
+#: include/admin_form.php:15
+msgid "Dhul Hijjah"
+msgstr "ذو الحجة"
+
+#: include/admin_form.php:42
+msgid "Editing the start of month "
+msgstr "تحرير بداية شهر "
+
+#: include/admin_form.php:43
+msgid " From Year "
+msgstr " من سنة  "
+
+#: include/admin_form.php:51 include/admin_form.php:54 include/admin_form.php:308
+#: include/admin_form.php:309 main.php:116
+msgid "F j, Y"
+msgstr "D _j _F _Y\\A\\H j-n-Y\\A\\D"
+
+#: include/admin_form.php:54
+#, php-format
+msgid "and also will adjust %s from year %d to %s"
+msgstr "أيضًا سيتمّ تعديل %s من السنة %d إلى %s"
+
+#: include/admin_form.php:64
+#, php-format
+msgid "Do you want realy to delete the adjustment of month %s of year %d"
+msgstr "هل تريد حقًا حذف التعديلات المضافة لشهر %s من سنة %d هـ؟"
+
+#: include/admin_form.php:66
+msgid "which will delete successively the adjustment of months:"
+msgstr "‫<strong>تنبيه!</strong> : أيضًا سيتمّ حذف التعديلات المتتالية التابعة لشهر :"
+
+#: include/admin_form.php:69
+#, php-format
+msgid "%s From Year %d"
+msgstr "%s من سنة %d"
+
+#: include/admin_form.php:151
+msgid "Settings WP-Hijri"
+msgstr "إعدادات التاريخ الهجري للووردبريس"
+
+#: include/admin_form.php:155
+msgid ""
+"You can choose Hijri or Gregorian dates or both to show inside posts and pages."
+msgstr ""
+"يمكنك اختيار التاريخ الهجري أو التاريخ الميلادي أو كلاهما لعرضها في المقالات "
+"والصفحات."
+
+#: include/admin_form.php:159
+msgid "Hijri calendar algorithm"
+msgstr "خوارزمية التقويم الهجري"
+
+#: include/admin_form.php:165
+msgid "Um Al Qura algorithm (Recommended)"
+msgstr "تقويم أم القرى ( مستحسن )"
+
+#: include/admin_form.php:170
+msgid "Tabular algorithm"
+msgstr "تقويم هجري اصطلاحي"
+
+#: include/admin_form.php:174
+msgid "Language"
+msgstr "لغة العرض"
+
+#: include/admin_form.php:180
+msgid "WordPress Language"
+msgstr "لغة ووردبريس الإفتراضية"
+
+#: include/admin_form.php:185
+msgid "Arabic"
+msgstr "العربية (AR)"
+
+#: include/admin_form.php:190
+msgid "English"
+msgstr "الانجليزية (EN)"
+
+#: include/admin_form.php:193
+msgid "Other Options"
+msgstr "خيارات أخرى"
+
+#: include/admin_form.php:197
+msgid "Force all dates to return Hijri dates."
+msgstr "إجبار كافة تواريخ ووردبريس بإرجاعها إلى تواريخ هجرية."
+
+#: include/admin_form.php:201
+msgid "Use Hijri Date in URLs."
+msgstr "استخدام التاريخ الهجري في الروابط."
+
+#: include/admin_form.php:206
+msgid "Date Format"
+msgstr "صيغة التاريخ"
+
+#: include/admin_form.php:218
+msgid "Custom Format"
+msgstr "تنسيق مُخصّص"
+
+#: include/admin_form.php:228
+msgid "Show custom format"
+msgstr "عرض التنسيقات المُخصّصة"
+
+#: include/admin_form.php:233
+msgid "The Custom Format"
+msgstr "التنسيقات المُخصّصة"
+
+#: include/admin_form.php:236
+msgid "Hijri Date Format"
+msgstr "التاريخ الهجري"
+
+#: include/admin_form.php:237 include/admin_form.php:246
+msgid "Display name of day."
+msgstr "عرض اسم اليوم  [السبت - الجمعة]"
+
+#: include/admin_form.php:238 include/admin_form.php:247
+msgid "Display number day [1-30]"
+msgstr "عرض اليوم بدون أصفار دليلية [1-30]"
+
+#: include/admin_form.php:239 include/admin_form.php:248
+msgid "Display number day [01-30]"
+msgstr "عرض اليوم مع أصفار دليلية [01-30]"
+
+#: include/admin_form.php:240
+msgid "Display name of the month"
+msgstr "عرض اسم الشهر  [محرم - ذو الحجة]"
+
+#: include/admin_form.php:241 include/admin_form.php:251
+msgid "Display month as numbers [01-12]"
+msgstr "عرض رقم الشهر مع أصفار دليلية [01-12]"
+
+#: include/admin_form.php:242 include/admin_form.php:252
+msgid "Display month as numbers [1-12]"
+msgstr "عرض رقم الشهر بدون أصفار دليلية [1-12]"
+
+#: include/admin_form.php:243
+msgid "Display the short numbers for year [36]"
+msgstr "عرض السنة بشكل مختصر [36]"
+
+#: include/admin_form.php:244
+msgid "Display the full numbers for year [1436]"
+msgstr "عرض السنة بشكل كامل [1436]"
+
+#: include/admin_form.php:245
+msgid "Gregorian Date Format"
+msgstr "التاريخ الميلادي"
+
+#: include/admin_form.php:249
+msgid "Display full names of the months "
+msgstr "عرض الأسماء الكاملة للأشهر "
+
+#: include/admin_form.php:250
+msgid "Display short names of the months"
+msgstr "عرض الأسماء القصيرة للأشهر"
+
+#: include/admin_form.php:253
+msgid "Display the short numbers for year [15]"
+msgstr "عرض السنة بشكل مختصر [15]"
+
+#: include/admin_form.php:254
+msgid "Display the full numbers for year [2015]"
+msgstr "عرض السنة بشكل كامل [2015]"
+
+#: include/admin_form.php:260
+msgid "Save"
+msgstr "حفظ التغييرات"
+
+#: include/admin_form.php:263
+msgid "Hijri calendar adjustments"
+msgstr "التعديلات لتوافق التقويم الهجري"
+
+#: include/admin_form.php:264
+msgid ""
+"Here you can modify the beginning of Hijri months based on Um Al Qura algorithm"
+msgstr ""
+"هنا يمكنك إضافة تعديلات على بداية الأشهر الهجرية اعتمادًا على خوارزمية تقويم أم "
+"القرى"
+
+#: include/admin_form.php:267
+msgid "Warning: To apply adjustments, Please Choose Um Al-Qura algorithm."
+msgstr "تنبيه : لتطبيق التعديلات اللازمة، يُرجى اختيار تقويم أم القرى."
+
+#: include/admin_form.php:274
+msgid "Year"
+msgstr "السنة"
+
+#: include/admin_form.php:280
+msgid "Month"
+msgstr "الشهر"
+
+#: include/admin_form.php:285
+msgid "Add new adjustment"
+msgstr "إضافة تعديل وتوافق جديد"
+
+#: include/admin_form.php:290
+msgid "Current Hijri month Adjustments"
+msgstr "التعديلات على الشهر الهجري الحالي"
+
+#: include/admin_form.php:296
+msgid "There is not any current adjustments"
+msgstr "لا توجد أية تعديلات مضافة"
+
+#: include/admin_form.php:300
+msgid "Year/Month"
+msgstr "الشهر / السنة"
+
+#: include/admin_form.php:301
+msgid "Current Start"
+msgstr "البداية المعتمدة"
+
+#: include/admin_form.php:302
+msgid "Default Start"
+msgstr "البداية الافتراضية"
+
+#: include/admin_form.php:303
+msgid "Actions"
+msgstr "اجراءات"
+
+#: include/admin_form.php:312
+msgid "Edit"
+msgstr "تعديل"
+
+#: include/admin_form.php:314
+msgid "Delete"
+msgstr "حذف"
+
+#: include/admin_form.php:323
+msgid ""
+"Develop : <a target='_blank' href='https://twitter.com/hubaishan'>Saeed Hubaishan</"
+"a> & <a target='_blank' href='https://twitter.com/mohdokfie'>Mohammad Okfie</a>, "
+"By using 'Hijri Date lib' Library."
+msgstr ""
+"‫‎‫تطوير : <a target='_blank' href='https://twitter.com/hubaishan'>سعيد حبيشان</a> & "
+"<a target='_blank' href='https://twitter.com/mohdokfie'>محمد عُكفي</a>، بإستخدام "
+"مكتبة التاريخ الهجري 'Hijri Date lib'."
+
+#: include/admin_form.php:337
+msgid "Possible starts"
+msgstr "البدايات الممكنة"
+
+#: include/admin_form.php:349
+msgid "Save Data"
+msgstr "حفظ البيانات"
+
+#: include/admin_form.php:350 include/admin_form.php:366
+msgid "Cancel"
+msgstr "إلغاء الأمر"
+
+#: include/admin_form.php:356
+msgid "Delete Confirm"
+msgstr "تأكيد الحذف"
+
+#: include/admin_form.php:365
+msgid "OK"
+msgstr "موافق"
+
+#: include/hijri-widgets.php:13
+msgid "A Hijri monthly archive of your site&#8217;s Posts."
+msgstr "أرشيف شهري بالتاريخ الهجري لمقالات موقعك."
+
+#: include/hijri-widgets.php:14
+msgid "Hijri Archives"
+msgstr "أرشيف التاريخ الهجري"
+
+#: include/hijri-widgets.php:26
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: include/hijri-widgets.php:56
+msgid "Select Year"
+msgstr "حدد السنة"
+
+#: include/hijri-widgets.php:59
+msgid "Select Month"
+msgstr "حدد الشهر"
+
+#: include/hijri-widgets.php:62
+msgid "Select Day"
+msgstr "حدد اليوم"
+
+#: include/hijri-widgets.php:121 include/hijri-widgets.php:174
+msgid "Title:"
+msgstr "العنوان:"
+
+#: include/hijri-widgets.php:123
+msgid "Display as dropdown"
+msgstr "عرض كقائمة منسدلة"
+
+#: include/hijri-widgets.php:125
+msgid "Show post counts"
+msgstr "عرض عدد المقالات"
+
+#: include/hijri-widgets.php:135
+msgid "Hijri Calendar"
+msgstr "التقويم الهجري"
+
+#: include/hijri-widgets.php:135
+msgid ""
+"You can add the calendar for one month automatic or by customize the number for "
+"month and year."
+msgstr "يمكنك اضافة التقويم الهجري بشكل تلقائي أو مخصص بتغيير رقم الشهر والسنة."
+
+#: include/hijri-widgets.php:510
+#, php-format
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: main.php:128
+msgid ""
+"Author: <a target=\"_blank\" href=\"https://twitter.com/hubaishan\">Saeed "
+"Hubaishan</a> & <a target=\"_blank\" href=\"https://twitter.com/mohdokfie"
+"\">Mohammad Okfie</a>"
+msgstr ""
+"بواسطة: <a target='_blank' href='https://www.facebook.com/saeed.hubaishan'>سعيد "
+"حبيشان</a> - <a target='_blank' href='https://www.facebook.com/okfie'>محمد عكفي</a>"
+
+#: main.php:129
+msgid "Hijri Date lib"
+msgstr "مكتبة التاريخ الهجري [Github]"
+
+#: main.php:166 main.php:176 main.php:179
+msgid "WP-Hijri"
+msgstr "التاريخ الهجري لووردبريس"
+
+#: main.php:167
+msgid ""
+"Displays dates in Hijri, Gregorian or both your site, Allows to change URLs to "
+"Hijri, Contains Hijri Calendar and Archive widgets."
+msgstr ""
+"عرض التواريخ كهجرية أو ميلادية أو كلاهما معًا في موقعك، كما تسمح لك الإضافة بجعل "
+"الروابط تعمل بتواريخ هجرية، بالإضافة إلى ذلك تحتوي على تقويم وأرشيف مواضيع "
+"بالتواريخ الهجرية ضمن الودجات."
+
+#: main.php:176 main.php:179
+msgid "Settings Date"
+msgstr "إعدادات التاريخ"
+
+#: main.php:253
+#, php-format
+msgid "Year: %s"
+msgstr "السنة: %s"
+
+#: main.php:255
+#, php-format
+msgid "Month: %s"
+msgstr "الشهر: %s"
+
+#: main.php:257
+#, php-format
+msgid "Day: %s"
+msgstr "اليوم: %s"
+
+#: main.php:878
+msgid "Settings saved."
+msgstr "تمّ حفظ الإعدادات."
+
+#: main.php:887
+#, php-format
+msgid "The adjustment of month %s from year %d saved successfully"
+msgstr "تعديلات شهر %s في سنة %d تمّ حفظها بنجاح"
+
+#: main.php:889
+msgid "Some errors"
+msgstr "عفوًا هناك بعض الأخطاء"
+
+#: main.php:897
+#, php-format
+msgid "The adjustment of month %s from year %d deleted successfully"
+msgstr "تعديلات شهر %s في سنة %d تمّ حذفها بنجاح"
+
+#~ msgid ""
+#~ "Author:<a target=\"_blank\" href=\"https://www.facebook.com/saeed.hubaishan"
+#~ "\">Saeed Hubaishan</a> & <a target=\"_blank\" href=\"https://www.facebook.com/"
+#~ "okfie\">Mohammad Okfie</a>"
+#~ msgstr ""
+#~ "بواسطة: <a target='_blank' href='https://www.facebook.com/saeed.hubaishan'>سعيد "
+#~ "حبيشان</a> - <a target='_blank' href='https://www.facebook.com/okfie'>محمد "
+#~ "عكفي</a>"
+
+#~ msgid "Settings"
+#~ msgstr "الإعدادات"
+
+#~ msgid "And Also will adjust %s From Year %d To %s"
+#~ msgstr "وأيضًا سيتمّ تعديل بداية شهر %s من سنة %d إلى %s"
+
+#~ msgid "You can choose hijri or gregorian date to show inside posts or pages."
+#~ msgstr "يمكنك اختيار التاريخ الهجري أو الميلادي لعرضه داخل المقالات والصفحات "
+
+#~ msgid "What is the calendar you want ?"
+#~ msgstr "ما نوع التقويم المراد استخدامه ؟"
+
+#~ msgid "System"
+#~ msgstr "لغة ووردبريس"
+
+#~ msgid "Display names of the months [Syriac]"
+#~ msgstr "عرض أسماء الأشهر السريانية [كانون الثاني - شباط]"
+
+#~ msgid "Display names of the months [English]"
+#~ msgstr "عرض أسماء الأشهر الإنجليزية [يناير - أغسطس]"
+
+#~ msgid "Edit and correction hijri date"
+#~ msgstr "تعديل وتصحيح التاريخ الهجري"
+
+#~ msgid "You can edit and correction hijri date by change the first day in month."
+#~ msgstr ""
+#~ "يمكنك تعديل وتصحيح التاريخ الهجري بتغيير بداية الشهر - ليتمّ حفظها بشكل تلقائي ."
+
+#~ msgid "Add new correction"
+#~ msgstr "إضافة تصحيح جديد"
+
+#~ msgid "Current hijri date Adjustments"
+#~ msgstr "التعديلات الخاصة بتقويم أم القرى"
+
+#~ msgid "Settings Hijri Date On Posts and Pages"
+#~ msgstr "إعدادات التاريخ للمقالات والصفحات"
+
+#~ msgid ""
+#~ "This plugin allows to set Hijri, Gregorian or both dates on your site. so, the "
+#~ "using it is easy and flexible, also this plugin contains widgets for add "
+#~ "Calendar to sidebar, and custom widget for show posts by Hijri date on sidebar "
+#~ "also, and more features you can see it!"
+#~ msgstr ""
+#~ "هذه الإضافة تسمح لك بوضع التاريخ الهجري والميلادي أو كلاهما معًا في موقعك الشخصي "
+#~ "بطريقة سهلة ومرنة، بالإضافة إلى ذلك تحتوي على عدة ودجات تساعدك على إضافة "
+#~ "التقويم الهجري في القائمة الجانبية وكذلك ودجت مخصص لعرض المقالات بتواريخ هجرية "
+#~ "يمكنك وضعه أيضًا في القائمة الجانبية، وهناك المزيد من المميزات يمكنك رؤيتها "
+#~ "بنفسك!"
+
+#~ msgid ""
+#~ "Develop : <a target='_blank' href='https://www.facebook.com/saeed."
+#~ "hubaishan'>Saeed Hubaishan</a> & <a target='_blank' href='https://www.facebook."
+#~ "com/okfie'>Mohammad Okfie</a>, By use ' Hijri Date lib' Library"
+#~ msgstr "تطوير"
+
+#~ msgid ""
+#~ "Develop : <a target='_blank' href='https://www.facebook.com/saeed."
+#~ "hubaishan'>Saeed Hubaishan</a> & <a target='_blank' href='https://www.facebook."
+#~ "com/okfie'>Mohammad Okfie</a>, By use ' Hijri Date lib' \n"
+#~ "Library"
+#~ msgstr ""
+#~ "إعداد: <a target='_blank' href='https://www.facebook.com/saeed.hubaishan'>سعيد "
+#~ "هوبايشان</a> آند <a target='_blank' href='https://www.facebook.com/okfie'>محمد "
+#~ "أوكفي</a>، استخدام 'التاريخ الهجري ليب' مكتبة"
+
+#~ msgid ""
+#~ "Develop : <a target='_blank' href='https://www.facebook.com/saeed."
+#~ "hubaishan'>Saeed Hubaishan</a> & <a target='_blank' href='https://www.facebook."
+#~ "com/okfie'>Mohammad Okfie</a>"
+#~ msgstr ""
+#~ "تطوير: <a target='_blank' href='https://www.facebook.com/saeed.hubaishan'>سعيد "
+#~ "حبيشان</a> - <a target='_blank' href='https://www.facebook.com/okfie'>محمد "
+#~ "عكفي</a>"
+
+#~ msgid "Develop : Saeed Hubaishan & Mohammad Okfie"
+#~ msgstr "تطوير: سعيد حبيشان - محمد عكفي"
+
+#~ msgid "Develop : Mohammad Okfie & Saeed Hubaishan."
+#~ msgstr "تطوير: سعيد حبيشان - محمد عكفي"
+
+#~ msgid "Create & Develop : Mohammad Okfie."
+#~ msgstr "تطوير وتنفيذ : مُحمّد عُكفي"
+
+#~ msgid "AD"
+#~ msgstr "م"
+
+#~ msgid "AH"
+#~ msgstr "هـ"
+
+#~ msgid "Mon 1-1-1428h (01-1-2007ad)"
+#~ msgstr "الاثنين 1-1-1428 هـ (01-1-2007م)"
+
+#~ msgid "Mon 1 Muharram 1428h"
+#~ msgstr "الاثنين 1 محرم 1428 هـ"
+
+#~ msgid "Umalqura"
+#~ msgstr "أم القرى"
+
+#~ msgid "Tabular"
+#~ msgstr "الإصطلاحي"
+
+#~ msgid "What you want to display?"
+#~ msgstr "ما نوع التاريخ المراد عرضه ؟"
+
+#~ msgid ""
+#~ "<code>%hijri%</code> Display hijri date,<code>%gregorian%</code> Display "
+#~ "gregorian date, This field for both dates only."
+#~ msgstr ""
+#~ "<code>%hijri%</code> لعرض التاريخ الهجري، <code>%gregorian%</code> لعرض التاريخ "
+#~ "الميلادي."
+
+#~ msgid ""
+#~ "<code>l , D</code> Display name of day,<code>_j</code> Display number day "
+#~ "without zero [1-30],<code>_d</code> Display number day with zero [01-30],"
+#~ "<code>_M , _F</code> Display name of the month,<code>_m</code> Display month as "
+#~ "numbers only [01-12], <code>_n</code> Display month as numbers only [1-12],"
+#~ "<code>_y</code> Display the short numbers for year[36] and <code>_Y</code> "
+#~ "Display the full numbers for year[1436]"
+#~ msgstr ""
+#~ "<code>l , D</code> عرض اسم اليوم  [السبت - الجمعة]،<code>_j</code> اليوم بدون "
+#~ "أصفار دليلية [1-30]، <code>_d</code>اليوم مع أصفار دليلية [01-30]، <code>_M , "
+#~ "_F</code> اسم الشهر، <code>_m</code> عرض رقم الشهر مع أصفار دليلية [01-12]، "
+#~ "<code>_n</code> رقم الشهر بدون أصفار دليلية [1-12]، <code>_y</code> عرض السنة "
+#~ "كأرقام مختصرة [36] و <code>_Y</code> عرض السنة كأرقام كاملة [1436]"
+
+#~ msgid ""
+#~ "<code>l , D</code> Display name of day,<code>j</code> Display number day "
+#~ "without zero [1-30],<code>d</code> Display number day with zero [01-30],"
+#~ "<code>M , F</code> Display name of the month,<code>m</code> Display month as "
+#~ "numbers only [01-12], <code>n</code> Display month as numbers only [1-12],"
+#~ "<code>y</code> Display the short numbers for year[36] and <code>Y</code> "
+#~ "Display the full numbers for year[1436]"
+#~ msgstr ""
+#~ "<code>l , D</code> عرض اسم اليوم  [السبت - الجمعة]،<code>j</code> اليوم بدون "
+#~ "أصفار دليلية [1-30]، <code>d</code>اليوم مع أصفار دليلية [01-30]، <code>M , F</"
+#~ "code> اسم الشهر، <code>m</code> عرض رقم الشهر مع أصفار دليلية [01-12]، <code>n</"
+#~ "code> رقم الشهر بدون أصفار دليلية [1-12]، <code>y</code> عرض السنة كأرقام "
+#~ "مختصرة [36] و <code>Y</code> عرض السنة كأرقام كاملة [1436]"
+
+#~ msgid ""
+#~ "You can edit and correction hijri date by change the first day start in the "
+#~ "month."
+#~ msgstr ""
+#~ "يمكنك تعديل وتصحيح التاريخ الهجري بتغيير بداية الشهر للمزامنة مع تقويم أم "
+#~ "القرى، وليتمّ حفظها بشكل تلقائي ."
+
+#~ msgid "Hijri Calendar for Month"
+#~ msgstr "التقويم الهجري | الشهري"
+
+#~ msgid "ltr"
+#~ msgstr "rtl"
+
+#~ msgid "Saturday"
+#~ msgstr "السبت"
+
+#~ msgid "Sat"
+#~ msgstr "س"
+
+#~ msgid "Sunday"
+#~ msgstr "الأحد"
+
+#~ msgid "Sun"
+#~ msgstr "أ"
+
+#~ msgid "Monday"
+#~ msgstr "الأثنين"
+
+#~ msgid "Mon"
+#~ msgstr "ن"
+
+#~ msgid "Tuesday"
+#~ msgstr "الثلاثاء"
+
+#~ msgid "Tue"
+#~ msgstr "ث"
+
+#~ msgid "Wednesday"
+#~ msgstr "الأربعاء"
+
+#~ msgid "Wed"
+#~ msgstr "ر"
+
+#~ msgid "Thursday"
+#~ msgstr "الخميس"
+
+#~ msgid "Thu"
+#~ msgstr "خ"
+
+#~ msgid "Friday"
+#~ msgstr "الجمعة"
+
+#~ msgid "Fri"
+#~ msgstr "ج"
+
+#~ msgid "The day in Gregorian :"
+#~ msgstr "اليوم في التقويم الميلادي:"
+
+#~ msgid "View the topics of this day"
+#~ msgstr "عرض المواضيع التابعة لهذا اليوم"
+
+#~ msgid "How do you want to work calendar?"
+#~ msgstr "كيف ترغب بأن يعمل التقويم الهجري ؟"
+
+#~ msgid "Auto"
+#~ msgstr "تلقائي"
+
+#~ msgid "Custom"
+#~ msgstr "مخصص"
+
+#~ msgid "Enter the year"
+#~ msgstr "ادخل رقم السنة ( مثال : 1436 )"
+
+#~ msgid "Enter the month"
+#~ msgstr "ادخل رقم الشهر ( مثال : 10 )"
+
+#~ msgid "Hijri Date For Posts and Pages"
+#~ msgstr "التاريخ الهجري للمقالات والصفحات"
+
+#~ msgid "\\A\\D"
+#~ msgstr "\\م\\"
+
+#~ msgid "\\A\\H"
+#~ msgstr "\\هـ\\"
+
+#~ msgid "Mon 1 Muharram 1428h (01-1-2007ad)"
+#~ msgstr "الاثنين 1 محرم 1428 هـ (01-1-2007م)"
+
+#~ msgid "Display name of the months [Syriac]"
+#~ msgstr "عرض اسم الشهر [السريانية]"
+
+#~ msgid "Display name of the month [Syriac]"
+#~ msgstr "عرض اسم الشهر [السريانية]"
+
+#~ msgid ""
+#~ "Warning: The Adjustments has no effect without Um Al-Qura algorithm, Choose Um "
+#~ "Al-Qura algorithm to apply the adjustments."
+#~ msgstr "تنبيه : التعديلات لن تقوم "
+
+#~ msgid "Display the short numbers for year[36]"
+#~ msgstr "عرض السنة بشكل مختصر [36]"
+
+#~ msgid "Display the full numbers for year[1436]"
+#~ msgstr "عرض السنة بشكل كامل [1436]"
+
+#~ msgid "Display number day without zero [1-30]."
+#~ msgstr ""
+#~ "<code>_j</code> اليوم بدون أصفار دليلية [1-30]، <code>_d</code>اليوم مع أصفار "
+#~ "دليلية [01-30]، <code>_M , _F</code> اسم الشهر، <code>_m</code> عرض رقم الشهر "
+#~ "مع أصفار دليلية [01-12]، <code>_n</code> رقم الشهر بدون أصفار دليلية [1-12]، "
+#~ "<code>_y</code> عرض السنة كأرقام مختصرة [36] و <code>_Y</code> عرض السنة كأرقام "
+#~ "كاملة [1436]"
+
+#~ msgid "Display number day with zero [01-30]"
+#~ msgstr "اليوم مع أصفار دليلية [01-30"
+
+#~ msgid "Idiomatic"
+#~ msgstr "الإصطلاحي"
+
+#~ msgid ""
+#~ "<code>_j</code> Display number day without zero [1-30],<code>_d</code> Display "
+#~ "number day with zero [01-30],<code>_M , _F</code> Display name of the month,"
+#~ "<code>_m</code> Display month as numbers only [01-12], <code>_n</code> Display "
+#~ "month as numbers only [1-12],<code>_y</code> Display the short numbers for "
+#~ "year[36] and <code>_Y</code> Display the full numbers for year[1436]"
+#~ msgstr ""
+#~ "<code>_j</code> اليوم بدون أصفار دليلية [1-30]، <code>_d</code>اليوم مع أصفار "
+#~ "دليلية [01-30]، <code>_M , _F</code> اسم الشهر، <code>_m</code> عرض رقم الشهر "
+#~ "مع أصفار دليلية [01-12]، <code>_n</code> رقم الشهر بدون أصفار دليلية [1-12]، "
+#~ "<code>_y</code> عرض السنة كأرقام مختصرة [36] و <code>_Y</code> عرض السنة كأرقام "
+#~ "كاملة [1436]"
+
+#~ msgid ""
+#~ "<code>l</code> Display day name,<code>dS</code> Display number day,<code>F</"
+#~ "code> Display name of the month,<code>m</code> Display month as numbers only, "
+#~ "and <code>Y</code> Display the year"
+#~ msgstr ""
+#~ "<code>l</code>عرض اسم اليوم، <code>dS</code> عرض رقم اليوم، <code>F</code>عرض "
+#~ "اسم الشهر، <code>m</code>عرض الشهر كأرقام فقط، و <code>Y</code> عرض السنة."
+
+#~ msgid "ar"
+#~ msgstr "ar"
+
+#~ msgid "%hijri% H - ( %gregorian%)"
+#~ msgstr "%hijri% هـ - ( %gregorian% م)"
+
+#~ msgid "j-M-Y"
+#~ msgstr "j-M-Y"
+
+#~ msgid "l _Y/_n/_j"
+#~ msgstr "l _Y/_n/_j"
+
+#~ msgid "Title Box"
+#~ msgstr "عنوان المربع"
+
+#~ msgid "What you want to display date on header?"
+#~ msgstr "ما نوع التاريخ المراد عرضه في أعلى الترويسة ؟"
+
+#~ msgid "Just Hijri Date"
+#~ msgstr "التاريخ الهجري فقط"
+
+#~ msgid "Just Gregorian Date"
+#~ msgstr "التاريخ الميلادي فقط"
+
+#~ msgid "Both"
+#~ msgstr "كلاهما"
+
+#~ msgid "Style Date"
+#~ msgstr "شكل التاريخ"
+
+#~ msgid "Hijri Date"
+#~ msgstr "التاريخ الهجري"
+
+#~ msgid "Correction Hijri Date"
+#~ msgstr "تصحيح التاريخ الهجري"
+
+#~ msgid ""
+#~ "You can fix date by Plus ( + ) day or Minus ( - ) for example <code>+2</code>"
+#~ msgstr ""
+#~ "يمكنك إصلاح التاريخ بإستخدام علامة (+) أو  (-) لتصحيح حالة التاريخ - على سبيل "
+#~ "المثال<code>+2</code> لزيادة يومان."
+
+#~ msgid "The library used in this plugin for ar-php."
+#~ msgstr "المكتبة المستخدمة في هذه الإضافة لصالح موقع AR-PHP"
+
+#~ msgid "Order Date"
+#~ msgstr "ترتيب عرض التاريخ الهجري والميلادي"
+
+#~ msgid "name day, number day/number month/number years"
+#~ msgstr "اسم اليوم، رقم اليوم/رقم شهر/السنة"
+
+#~ msgid "name day, number day/name month/number years"
+#~ msgstr "اسم اليوم، رقم اليوم/اسم الشهر/السنة"
+
+#~ msgid "number day/number month/number years"
+#~ msgstr "رقم اليوم/رقم شهر/السنة"
+
+#~ msgid "number day/name month/number years"
+#~ msgstr "رقم اليوم/اسم الشهر/السنة"
+
+#~ msgid ""
+#~ "<code>%hijri%</code> Display hijri date,<code>%gregorian%</code> Display "
+#~ "gregorian date."
+#~ msgstr ""
+#~ "<code>%hijri%</code>عرض التاريخ الهجري، <code>%gregorian%</code> عرض التاريخ "
+#~ "الميلادي."
+
+#~ msgid "Save Date"
+#~ msgstr "حفظ التاريخ"
+
+#~ msgid "The library used in this project for ar-php."
+#~ msgstr "المكتبة المستخدمة في هذه الإضافة لصالح موقع AR-PHP"
+
+#~ msgid ""
+#~ "<code>l</code> Full name for day of the week,<code>dS</code> The number day of "
+#~ "the month,<code>F</code> Full name for the month,<code>m</code> Number of the "
+#~ "month, and <code>Y</code> The year"
+#~ msgstr ""
+#~ "<code>l</code>عرض اسم اليوم، <code>dS</code> عرض رقم اليوم، <code>F</code>عرض "
+#~ "اسم الشهر، <code>m</code>عرض الشهر كأرقام فقط، و <code>Y</code> عرض السنة."
+
+#~ msgid ""
+#~ "<code>l</code> Full name for day of the week,<code>dS</code> The day of the "
+#~ "month,<code>F</code> Full name for the month. , and <code>Y</code> The year in "
+#~ "4 digits"
+#~ msgstr ""
+#~ "<code>l</code> الاسم الكامل لأيام الأسبوع,<code>dS</code> رقم اليوم من الشهر,"
+#~ "<code>F</code> رقم الشهر. , وكذلك <code>Y</code> لرقم السنة المكوّن من أربع "
+#~ "أرقام ."
+
+#~ msgid "Gregorian Date"
+#~ msgstr "التاريخ الميلادي"
+
+#~ msgid "Style Hijri Date"
+#~ msgstr "شكل التاريخ الهجري"
+
+#~ msgid "H"
+#~ msgstr "هـ"
+
+#~ msgid ""
+#~ "You can correction Hijri date by + or - days. for example <code>+2</code> or "
+#~ "<code>-2</code> or set 0 for default"
+#~ msgstr ""
+#~ "يمكنك تصحيح التاريخ الهجري بإستخدام علامة ( + ) أو  ( - ) لزيادة الأيام أو "
+#~ "نقصانها، على سبيل المثال : <code>+2</code> أو <code>-2</code> أو ضع  0 لإرجاع "
+#~ "الوضع الإفتراضي."
+
+#~ msgid ""
+#~ "<a href='http://codex.wordpress.org/Formatting_Date_and_Time' "
+#~ "target='_blank'>Click here to use custom format</a>"
+#~ msgstr ""
+#~ "<a href='http://codex.wordpress.org/Formatting_Date_and_Time' "
+#~ "target='_blank'>انقر هنا لاستخدام تنسيق مخصص</a>"
+
+#~ msgid "01/10/1436"
+#~ msgstr "01/10/1436"
+
+#~ msgid "01/Shawwal/1436"
+#~ msgstr "01/شوال/1436"
+
+#~ msgid ""
+#~ "You can correction Hijri date by + or - days. for example <code>+2</code> or "
+#~ "<code>-2</code>"
+#~ msgstr ""
+#~ "يمكنك تصحيح التاريخ الهجري بزيادة أو نقصان الأيام حيثُ يمكنك كتابة القيمة حسب "
+#~ "المثال : <code>+2</code> أو <code>-2</code>"
+
+#~ msgid "<a href='' target='_blank'>Click here to use custom format</a>"
+#~ msgstr "<a href='' target='_blank'>اضغط هنا لإستخدام صيغة مخصصة.</a> "
